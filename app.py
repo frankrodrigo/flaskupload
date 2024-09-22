@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 # Configure your bucket name here
 GCS_BUCKET = "flasktestbucket1"
-CREDENTIALS_PATH = "cbd3354-435500-07a4e244e7c4.json"  # Path to your service account JSON file
+CREDENTIALS_PATH = "/cbd3354-435500-07a4e244e7c4.json"  # Path to your service account JSON file
 
 
 def upload_to_gcs(file, bucket_name, destination_blob_name):
